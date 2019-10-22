@@ -1,0 +1,77 @@
+<cu-custom bgColor="bg-red">
+  <view slot="content">券搜搜</view>
+</cu-custom>
+<view class="cu-bar search bg-red">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="请输入商品名称" confirm-type="search"></input>
+  </view>
+</view>
+<view class="index-header-background bg-red">
+</view>
+
+
+<scroll-view scroll-x class="bg-red nav">
+
+  <view class="flex text-center">
+    <view class="cu-item flex-sub {{0==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="0">
+      <text class="cuIcon-ppd"></text> 拼多多
+    </view>
+    <view class="cu-item flex-sub {{1==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="1">
+      京东
+    </view>
+    <view class="cu-item flex-sub {{2==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="2">
+      蘑菇街
+    </view>
+  </view>
+</scroll-view>
+
+<scroll-view scroll-x class="bg-white nav">
+  <view class="flex text-center">
+    <view class="cu-item flex-sub {{0==TabListCur?'text-red':''}}" bindtap="tabListSelect" data-id="0">
+      默认
+    </view>
+    <view class="cu-item flex-sub {{1==TabListCur?'text-red':''}}" bindtap="tabListSelect" data-id="1">
+      好评
+    </view>
+    <view class="cu-item flex-sub {{2==TabListCur?'text-red':''}}" bindtap="tabListSelect" data-id="2">
+      销售
+    </view>
+    <view class="cu-item flex-sub {{3==TabListCur?'text-red':''}}" bindtap="tabListSelect" data-id="3" >
+      价格
+      <view class="arrUp">1</view>
+		  <view class="arrDown">2</view>
+      <!-- <text class="cuIcon-triangleupfill"></text>
+      <text class="cuIcon-triangledownfill"></text> -->
+    </view>
+  </view>
+</scroll-view>
+
+
+<!-- <view class="cu-list menu-avatar">
+  <view class="cu-item cur">
+    <view class="cu-avatar radius lg" style="background-image:url(../../../images/papger.jpg);">
+    </view>
+    <view class="content">
+      <view>
+        <image src="../../../images/pdd.png" style="width:1.3em;height: 1.3em"></image>
+        <text class="text-cut">新款纸巾</text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut"> 伊泽瑞尔：<text class="cuIcon-locationfill text-orange margin-right-xs"></text> 传送中...</text>
+      </view>
+    </view>
+    <view class="action">
+      <view class="text-grey text-xs">22:20</view>
+      <view class="cuIcon-notice_forbid_fill text-gray"></view>
+    </view>
+  </view>
+</view> -->
+
+
+<productlist> </productlist>
+<productlist> </productlist>
+<productlist> </productlist>
+<productlist> </productlist>
+<productlist> </productlist>
+<productlist> </productlist>

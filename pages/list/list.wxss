@@ -1,0 +1,13 @@
+
+ .index-header-background {
+  padding-top: 20rpx;
+  height: 231.356rpx;
+  width: 100%;
+  border-bottom-left-radius: 60rpx;
+  border-bottom-right-radius: 60rpx;
+  margin-bottom: 250rpx;
+} 
+
+.index-swiper {
+  left: 10rpx;
+}

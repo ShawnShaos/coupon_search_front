@@ -1,0 +1,22 @@
+<view class="search_item">
+		  <view class="img"> <image class="title_pp"  src="../../images/a-1.jpg"></image> </view>
+		  <view class="title"> <image class="title_img" src="../../images/pdd.jpg"></image>[40卷24卷10卷]5.5斤40卷 整木本色卫生本色卫生纸巾卷纸批发家用卷筒本色卫生纸巾卷纸批发家用卷筒本色卫生纸巾卷纸批发家用卷筒本色卫生纸巾卷纸批发家用卷筒纸巾卷纸批发家用卷筒卫生纸省略省略省略省略省略省略 </view>
+		  <view class="coupon">
+			<view class="coupon_price">
+				<span style="margin-left: -12rpx">100</span>
+			</view>
+			<view class="coupon_middle" ></view>
+			<view class="coupon_right" style=""></view>
+            <span >领券</span>
+		  </view>
+		  <view class="price"> 
+		  <view class="number">
+			  <span class="discount">￥14.9</span>
+			  <span class="original">￥24.90</span>
+		  </view>
+		  <view class="sales" >
+			  <span class="number">销量:10万+</span>
+			  <span class="shop">外星人旗舰店</span>
+		  </view>
+		  </view>
+		</view>
