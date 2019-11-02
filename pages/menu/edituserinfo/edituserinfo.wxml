@@ -1,16 +1,6 @@
 <cu-custom bgColor="bg-red">
   <view slot="content">券搜搜</view>
 </cu-custom>
-<view class="cu-bar search bg-red">
-  <view class="search-form round">
-    <text class="cuIcon-search"></text>
-    <input type="text" placeholder="请输入商品名称" confirm-type="search"></input>
-  </view>
-</view>
-<view class="index-header-background bg-red">
-</view>
-
-
 <scroll-view scroll-x class="bg-red nav">
 
   <view class="flex text-center">
@@ -25,6 +15,17 @@
     </view>
   </view>
 </scroll-view>
+<view class="cu-bar search bg-red">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="请输入商品名称" confirm-type="search"></input>
+  </view>
+</view>
+<view class="index-header-background bg-red">
+</view>
+
+
+
 
 <scroll-view scroll-x class="bg-white nav">
   <view class="flex text-center">

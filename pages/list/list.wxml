@@ -2,13 +2,28 @@
 <cu-custom bgColor="bg-red">
   <view slot="content">券搜搜</view>
 </cu-custom>
+<scroll-view scroll-x class="bg-red nav">
+  <view class="flex text-center">
+    <view class="cu-item flex-sub {{0==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="0">
+      <text class="cuIcon-ppd"></text> 拼多多
+    </view>
+    <view class="cu-item flex-sub {{1==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="1">
+      京东
+    </view>
+    <view class="cu-item flex-sub {{2==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="2">
+      蘑菇街
+    </view>
+  </view>
+</scroll-view>
 <view class="cu-bar search bg-red">
   <view class="search-form round">
     <text class="cuIcon-search"></text>
     <input type="text" placeholder="请输入商品名称" confirm-type="search"></input>
   </view>
 </view>
-<view class="index-header-background bg-red">
+
+
+<!-- <view class="index-header-background bg-red">
 
   <swiper class="index-swiper card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
     <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
@@ -18,4 +33,4 @@
       </view>
     </swiper-item>
   </swiper>
-</view>
+</view> -->

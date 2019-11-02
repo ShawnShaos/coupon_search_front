@@ -4,6 +4,7 @@ Page({
     scrollLeft: 0,
     TabListCur: 0
   },
+
   tabSelect(e) {
     this.setData({
       TabCur: e.currentTarget.dataset.id,

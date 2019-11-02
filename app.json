@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/menu/edituserinfo/edituserinfo",
+    "pages/userinfo/userinfo",
     "pages/list/list",
+    "pages/menu/edituserinfo/edituserinfo",
     "pages/my/my",
-    "pages/chat/chatlist/chatlist",
-    "pages/userinfo/userinfo"
+    "pages/chat/chatlist/chatlist"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -49,5 +49,8 @@
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
   },
+  "navigateToMiniProgramAppIdList": [
+    "wx32540bd863b27570"
+  ],
   "sitemapLocation": "sitemap.json"
 }

@@ -5,17 +5,17 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    wx.login({
-      success: res => { 
-        console.log(res)
-        var wxLogin = api.wxLogin({
-            code: res.code
-          }).then(function(data){
-            console.log(data)
-          })
+    // wx.login({
+    //   success: res => { 
+    //     console.log(res)
+    //     var wxLogin = api.wxLogin({
+    //         code: res.code
+    //       }).then(function(data){
+    //         console.log(data)
+    //       })
        
-      }
-    })
+    //   }
+    // })
 
 
     wx.getSetting({

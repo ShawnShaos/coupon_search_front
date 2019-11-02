@@ -35,6 +35,15 @@ Page({
       url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg'
     }],
   },
+  pdd(e) {
+    wx.navigateToMiniProgram({
+      appId: 'wx32540bd863b27570',
+      path: 'package_a/welfare_coupon/welfare_coupon?goods_id=51997586019\u0026pid=9101435_109386134\u0026cpsSign=CC_191024_9101435_109386134_208cf3bde1fedd12aa50706d93f1b36c\u0026duoduo_type=2',
+      success(res) {
+        // 打开成功
+      }
+    })
+  },
   onLoad() {
     this.towerSwiper('swiperList');
     // 初始化towerSwiper 传已有的数组名即可
